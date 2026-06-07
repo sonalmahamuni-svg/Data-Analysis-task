@@ -1,0 +1,174 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "2c0ef113-7851-445d-9c7e-27ba53a1367e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "B\n",
+      "not divisible by 2, and 3\n",
+      "Slow down\n",
+      "Teenager\n",
+      "Negative number\n",
+      "Senior discount: $5\n",
+      "Perfect weather for a walk\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter current temperature:  27\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Perfect weather for a walk\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your age:  22\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Adult\n"
+     ]
+    }
+   ],
+   "source": [
+    "#task 2.a\n",
+    "# if-else\n",
+    "# 1) grade code \n",
+    "p = 50\n",
+    "if p > 75:\n",
+    "    print(\"O\")\n",
+    "elif p > 60:\n",
+    "    print(\"A\")\n",
+    "elif p >= 50:  \n",
+    "    print(\"B\")\n",
+    "elif p > 35:\n",
+    "    print(\"C\")\n",
+    "else:\n",
+    "    print(\"fail\")\n",
+    " \n",
+    "# 2) n divisible by 2 or 3\n",
+    "n = 7\n",
+    "if n % 2 == 0 and n % 3 == 0:\n",
+    "    print(\"divisible by 2, and 3\")\n",
+    "elif n % 2 == 0 and n % 3 != 0:\n",
+    "    print(\"2 divisible, 3 not\")\n",
+    "elif n % 3 == 0 and n % 2 != 0:\n",
+    "    print(\"divisible by 3, not 2\")\n",
+    "else:\n",
+    "    print(\"not divisible by 2, and 3\")\n",
+    "\n",
+    "# 3)\n",
+    "light = \"yellow\"\n",
+    "if light == \"red\":\n",
+    "    print(\"Stop\")\n",
+    "elif light == \"yellow\":\n",
+    "    print(\"Slow down\")\n",
+    "elif light == \"green\":\n",
+    "    print(\"Go\")\n",
+    "else:\n",
+    "    print(\"Invalid color\")\n",
+    "\n",
+    "# 4)\n",
+    "age = 15\n",
+    "\n",
+    "if age < 13:\n",
+    "    print(\"Child\")\n",
+    "elif age < 20:\n",
+    "    print(\"Teenager\")\n",
+    "else:\n",
+    "    print(\"Adult\")\n",
+    "\n",
+    "# 5)\n",
+    "num = -5\n",
+    "if num > 0:\n",
+    "    print(\"Positive number\")\n",
+    "elif num < 0:\n",
+    "    print(\"Negative number\")\n",
+    "else:\n",
+    "    print(\"Zero\")\n",
+    "\n",
+    "# 6)\n",
+    "age = 65\n",
+    "if age < 5:\n",
+    "    print(\"Free ticket\")\n",
+    "elif age >= 60:\n",
+    "    print(\"Senior discount: $5\")\n",
+    "else:\n",
+    "    print(\"Standard ticket: $10\")\n",
+    "\n",
+    "# 7)    \n",
+    "temp = 18  \n",
+    "if temp > 30:\n",
+    "    print(\"Stay indoors, it is hot\")\n",
+    "elif temp >= 15:\n",
+    "    print(\"Perfect weather for a walk\")\n",
+    "else:\n",
+    "    print(\"Wear a warm jacket\")\n",
+    "    \n",
+    "# 8)   \n",
+    "age = int(input(\"Enter your age: \"))\n",
+    "if age < 13:\n",
+    "    print(\"Child\")\n",
+    "elif age < 20:\n",
+    "    print(\"Teenager\")\n",
+    "else:\n",
+    "    print(\"Adult\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b9d608e2-4281-4300-8d21-3a93e1894edd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e4dc6f87-7ffa-495c-9ea8-14a81c174e9e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

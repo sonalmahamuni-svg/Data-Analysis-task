@@ -1,0 +1,85 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "c8b96abb-cc1f-41d7-8a61-364ad5002d3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n",
+      "20\n",
+      "Age: 25\n",
+      "20\n",
+      "Not found\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 7 ERRORS \n",
+    "\n",
+    "# 1. IndentationError (Fix: Align spaces)\n",
+    "def greet():\n",
+    "    print(\"Hello\")\n",
+    "\n",
+    "\n",
+    "# 2. NameError (Fix: Define variable before use)\n",
+    "score = 100\n",
+    "print(score)\n",
+    "\n",
+    "\n",
+    "# 3. ValueError (Fix: Check string value before int conversion)\n",
+    "text = \"20\"\n",
+    "if text.isdigit():\n",
+    "    print(int(text))\n",
+    "\n",
+    "\n",
+    "# 4. TypeError (Fix: Convert numbers to strings before adding to text)\n",
+    "print(\"Age: \" + str(25))\n",
+    "\n",
+    "\n",
+    "# 5. IndexError (Fix: Do not access items past the list size)\n",
+    "items = [10, 20]\n",
+    "if len(items) > 1:\n",
+    "    print(items[1])\n",
+    "\n",
+    "\n",
+    "# 6. KeyError (Fix: Check if key exists or use get())\n",
+    "user={\"name\":\"Sonal\"}\n",
+    "print(user.get(\"email\", \"Not found\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "52c7779b-62a8-43ab-8f56-79ffd0e5dd98",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

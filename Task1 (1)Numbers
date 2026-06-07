@@ -1,0 +1,70 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f17f64db-2b4f-4f54-87b1-c2aaf3d61c7a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n",
+      "<class 'float'>\n",
+      "<class 'complex'>\n",
+      "15\n",
+      "5\n",
+      "50\n",
+      "2.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# !NUMBERS IN PYTHON \n",
+    "my_int = 10\n",
+    "my_float = 5.5\n",
+    "my_complex = 2 + 3j\n",
+    "\n",
+    "print(type(my_int))\n",
+    "print(type(my_float))\n",
+    "print(type(my_complex))\n",
+    "\n",
+    "# 2. Math Operations\n",
+    "print(10 + 5)  # Addition\n",
+    "print(10 - 5)  # Subtraction\n",
+    "print(10 * 5)  # Multiplication\n",
+    "print(10 / 5)  # Division"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e93b6ef4-9ab0-4423-a676-4f3ed1db1c82",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

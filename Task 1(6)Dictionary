@@ -1,0 +1,73 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "db44f9f3-aef2-4ce5-ad93-3b82e4ac2919",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Sonal\n",
+      "Active\n",
+      "dict_keys(['name', 'role', 'year', 'location'])\n",
+      "dict_values(['Sonal', 'Intern', 2026, 'Pune'])\n",
+      "dict_items([('name', 'Sonal'), ('role', 'Intern'), ('year', 2026), ('location', 'Pune')])\n",
+      "{'name': 'Sonal', 'role': 'Engineer', 'location': 'Pune'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 6 DICTIONARIES \n",
+    "\n",
+    "user = {\"name\": \"Sonal\", \"role\": \"Intern\", \"year\": 2026}\n",
+    "\n",
+    "# Accessing & Adding\n",
+    "print(user[\"name\"])\n",
+    "print(user.get(\"status\", \"Active\"))\n",
+    "user[\"location\"] = \"Pune\"\n",
+    "\n",
+    "# View items\n",
+    "print(user.keys())\n",
+    "print(user.values())\n",
+    "print(user.items())\n",
+    "\n",
+    "# Removing & Updating\n",
+    "user.pop(\"year\")\n",
+    "user.update({\"role\": \"Engineer\"})\n",
+    "print(user)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f2a3f9cc-040a-4595-bd54-0fd7f54ee788",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

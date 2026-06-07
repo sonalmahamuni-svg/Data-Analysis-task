@@ -1,0 +1,76 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "eeba32a3-213f-4097-aa12-2c0463507b40",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Add: {1, 2, 3, 4, 10}\n",
+      "Remove: {1, 3, 4, 10}\n",
+      "Union: {1, 3, 4, 5, 6, 10}\n",
+      "Intersection: {3, 4}\n",
+      "Difference: {1, 10}\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 5 SETS\n",
+    "\n",
+    "# 1. Create two sets\n",
+    "set_a = {1, 2, 3, 4}\n",
+    "set_b = {3, 4, 5, 6}\n",
+    "\n",
+    "# 2. Add an element\n",
+    "set_a.add(10)\n",
+    "print(\"Add:\", set_a)\n",
+    "\n",
+    "# 3. Remove an element\n",
+    "set_a.remove(2)\n",
+    "print(\"Remove:\", set_a)\n",
+    "\n",
+    "# 4. Union \n",
+    "print(\"Union:\", set_a.union(set_b))\n",
+    "\n",
+    "# 5. Intersection \n",
+    "print(\"Intersection:\", set_a.intersection(set_b))\n",
+    "\n",
+    "# 6. Difference \n",
+    "print(\"Difference:\", set_a.difference(set_b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1ffed626-fc48-44cd-9d86-4870cc544574",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
